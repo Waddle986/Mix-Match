@@ -1,12 +1,29 @@
+@font-face {
+    font-family: Doom;
+    src: url("AmazDooMLeft2.ttf");
+}
+
 body{
-    background-color:#d36803
+    background-color:black;
+    text-align:center;
 }
 
 h1{
     text-align: Center;
-font-size: 145px;
+font-size: 120px;
+color:#d36803;
+font-family: Bebas Neue;
+text-shadow: 3px 3px #a0978e;
 }
 
 .robot{
     width:500px;
+text-align:center;
+}
+
+p{
+    color:#d36803;
+    font-size: 30px;  
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
